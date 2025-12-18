@@ -14,7 +14,7 @@ st.set_page_config(
 # --- CONFIGURATION ---
 CONF_THRESHOLD = 0.4
 IOU_THRESHOLD = 0.5
-MODEL_PATH = r'./ultralytics/runs/detect/train13/weights/best.onnx'
+MODEL_PATH = r'best.onnx'
 
 # Your specific class names
 CLASS_NAMES = ["Missing_hole", "Mouse_bite", "Open_circuit", "Short_circuit", "Spur", "Spurious_Copper"]
@@ -133,5 +133,6 @@ if uploaded_file:
             
             # 3. Draw Text
             draw.text(text_pos, label_text, fill="white", font=font)
+
 
         st.image(image, caption="Refined Inspection Result", use_container_width=True)
