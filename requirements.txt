@@ -1,0 +1,17 @@
+matplotlib==3.10.6
+numpy==2.2.6
+onnx==1.20.0
+onnxruntime==1.23.2
+opencv-contrib-python==4.12.0.88
+opencv-python==4.12.0.88
+opencv-python-headless==4.12.0.88
+pillow==11.3.0
+protobuf==6.33.1
+scikit-learn==1.7.1
+scipy==1.16.1
+torch
+torchvision
+tornado==6.5.2
+tqdm==4.67.1
+wheel==0.45.1
+widgetsnbextension==4.0.14
